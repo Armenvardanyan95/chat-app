@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Sign In
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-list class="centered-view">
+
+    <ion-item>
+      <ion-label color="primary">Email</ion-label>
+      <ion-input placeholder="Email"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label color="primary">Password</ion-label>
+      <ion-input color="primary" type="password" placeholder="Password"></ion-input>
+    </ion-item>
+
+    <div class="centered-element sign-up">
+      <a (click)="navigateToRegister()">Sign Up</a>
+    </div>
+    <button class="centered-element" ion-button>Sign in</button>
+
+  </ion-list>
+
+</ion-content>
